@@ -1,0 +1,104 @@
+body {
+  background-color: whitesmoke;
+  color: #363636;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+/* Font Sizes */
+h1{
+  font-size: 2em;
+  font-weight: 550;
+
+}
+
+h3 {
+  font-size: 1.5em;
+  padding: .5em 0;
+  line-height: 1em;
+}
+
+p {
+  font-size: 1em;
+}
+
+/* Nav Style */
+nav {
+  background-color: rgba(0,0,0,.3);
+  float: left;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  margin: 20px;
+  width: 100px;
+}
+
+ul {
+  list-style-type: none;
+  float: right;
+}
+
+li {
+  float: right;
+  padding: 30px;
+}
+
+ul.right li a{
+  color: #363636;
+  text-decoration: none;
+}
+
+.right li a:hover {
+  color: #f2f2f5;
+}
+
+/* Header Style */
+h1{
+  margin: 1em 0 .5em;
+}
+.author{
+
+  font-weight: bold;
+}
+
+
+/* Photos Style */
+
+.large-pic {
+  width: 100%;
+}
+
+.medium-pic {
+  width: 70%;
+}
+
+.left, .right {
+  float: left;
+  width: 50%;
+}
+
+.right {
+  float: right;
+}
+
+
+/* Article Style */
+
+article {
+  padding-top: 100px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.story-text {
+  margin-top: 2em;
+}
+
+p {
+  margin-bottom: 1em;
+}
